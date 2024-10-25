@@ -6,7 +6,7 @@ A lightweight library of flexible React layout components written in TypeScript.
 ## Installation
 
 ```bash
-npm install @yourusername/react-layout-components
+npm install react-web-layout-components
 ```
 
 ## Usage
