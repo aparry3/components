@@ -1,5 +1,5 @@
 {
-  "name": "@aparry3/components",
+  "name": "react-web-layout-components",
   "version": "1.0.0",
   "description": "Simple, flexible React layout components",
   "main": "dist/index.js",
