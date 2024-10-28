@@ -10,7 +10,7 @@ interface TextProps extends React.HTMLAttributes<HTMLElement> {
 }
 
 const Text: FC<TextProps> = ({
-    as = 'p',
+    as = 'span',
     children, 
     style, 
     font, 
