@@ -19,14 +19,14 @@ const Text: FC<TextProps> = ({
     weight, 
     ...props
 }) => {
-    const _style: CSSProperties = { ...style, fontSize: '1rem', fontWeight: weight || 400 };
+    const _style: CSSProperties = { ...style, fontSize: size ?`${size}rem` : '', fontWeight: weight || 400 };
 
 
     const Component = as;
     return (
         <Component 
-            className={className} 
             style={_style}
+            className={className} 
             {...props}
         >
             {children}
