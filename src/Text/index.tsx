@@ -19,7 +19,7 @@ const Text: FC<TextProps> = ({
     weight, 
     ...props
 }) => {
-    const _style: CSSProperties = { ...style, fontSize: '1rem', fontWeight: 400, fontFamily: 'Arial' };
+    const _style: CSSProperties = { ...style, fontSize: '1rem', fontWeight: 400 };
 
 
     const Component = as;
