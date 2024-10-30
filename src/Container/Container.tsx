@@ -24,7 +24,7 @@ import React, {
     Omit<React.ComponentPropsWithoutRef<E>, PropsToOmit<E, ContainerOwnProps<E>>>;
   
   // Base styles for the Container
-  const BASE_STYLE: CSSProperties = {
+  export const BASE_STYLE: CSSProperties = {
     display: "flex",
     flexDirection: "row",
     justifyContent: "center",
